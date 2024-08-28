@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Banking">
+
+ <listeners>
+	<listener class-name="listerners.I_test_listerner"/>
+	</listeners>
+	
+
+  <test thread-count="5" name="staticdata">
+    <classes>
+      <class name="testcases.LoginTest_001"/>
+      <class name="testcases.Login_with_Xl_Data_002"/>
+    </classes>
+  </test> 
+</suite> 
